@@ -1,11 +1,12 @@
 html {
-  height: 100%;
+  height: 50%;
+  background-color: aqua;
 }
 
 body {
   box-sizing: border-box;
-  background: whitesmoke;
-  color: #15DEA5;
+  background:  #7779fa;
+  color: #1518de;
   height: 100%;
   font-family: "Montserrat", sans-serif;
 }
