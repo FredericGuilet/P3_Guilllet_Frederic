@@ -548,6 +548,38 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/restaurant1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/restaurant1.html",
+      "oF" : 0
+    },
+    "\/restaurant2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/restaurant2.html",
+      "oF" : 0
+    },
+    "\/restaurant3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/restaurant3.html",
+      "oF" : 0
+    },
+    "\/restaurant4.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/restaurant4.html",
+      "oF" : 0
+    },
     "\/sass\/style.scss" : {
       "aP" : 1,
       "bl" : 1,
