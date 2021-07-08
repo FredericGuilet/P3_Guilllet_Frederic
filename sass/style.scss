@@ -1,22 +1,26 @@
 $primarycolor : #9356DC;
 $secondecolor : #FF79DA;
 $tercolor : #99E2D0;
-$fondgriscolor :  #F2F2F2;
- 
-
+$fondgriscolor : #F2F2F2;
+lmù
 
 body {
-  font-family: "Shrikhand"; 
+  font-family: "Shrikhand";
 }
 
 html {
-    height: 100%;
-    background-color:#F2F2F2;
+  height: 100%;
+  background-color: $fondgriscolor;
+}
+
+.card {
+  background-color: $tercolor;
 }
 
 .card--img {
-  width: 300px;
+  
+  width: 305px;
   height: 150px;
   object-fit: cover;
-  
+
 }
