@@ -1,37 +1,13 @@
-$cd-btn: #011c37;
-$cd-txt: #15DEA5;
 
 html {
-    height: 50%;
+    height: 100%;
     background-color: aqua;
 }
 
-body {
-    box-sizing: border-box;
-    background:whitesmoke ;
-    color: $cd-txt;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-.container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card--img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
 }
 
-.btn {
-    background: $cd-btn;
-    font-size: 3rem;
-    cursor: pointer;
-    padding: 1.85rem 3rem;
-    border-radius: 10rem;
-  
-  transition: transform 400ms;
-
-    // add a transition to animate the property you've added that last
-    &:hover {
-       transform: scale(1.15);
-    }
-}
+// Commentaire
