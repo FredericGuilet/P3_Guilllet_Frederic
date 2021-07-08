@@ -3,7 +3,7 @@ p {
   font-weight: normal;
 }
 
-h4 {
+h1, h4 {
   font-family: "Shrikhand";
 }
 
@@ -21,7 +21,7 @@ footer, footer a {
   background-color: #99E2D0;
 }
 
-.card--img {
+.card--img, .cardrest--img {
   width: 305px;
   height: 150px;
 }

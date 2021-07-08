@@ -10,7 +10,7 @@ p
   font-weight: normal;
 }
 
-h4
+h1, h4
 {
 font-family: "Shrikhand";
 }
@@ -32,7 +32,7 @@ color: whitesmoke;
   background-color: $tercolor;
 }
 
-.card--img {
+.card--img , .cardrest--img {
   
   width: 305px;
   height: 150px;
