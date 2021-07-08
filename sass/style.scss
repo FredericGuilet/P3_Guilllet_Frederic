@@ -1,13 +1,22 @@
+$primarycolor : #9356DC;
+$secondecolor : #FF79DA;
+$tercolor : #99E2D0;
+$fondgriscolor :  #F2F2F2;
+ 
+
+
+body {
+  font-family: "Shrikhand"; 
+}
 
 html {
     height: 100%;
-    background-color: aqua;
+    background-color:#F2F2F2;
 }
 
 .card--img {
   width: 300px;
   height: 150px;
   object-fit: cover;
+  
 }
-
-// Commentaire
