@@ -29,38 +29,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/style.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/style.css.map",
-      "oF" : 0
-    },
-    "\/dist\/style-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/style-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/dist\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/icones\/android-icon-36x36.png" : {
       "ft" : 32768,
       "iS" : 2125,
@@ -582,14 +550,14 @@
     },
     "\/sass\/style.scss" : {
       "aP" : 1,
-      "bl" : 0,
+      "bl" : 1,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 1,
+      "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/style.css",
-      "oF" : 3,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
