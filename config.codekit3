@@ -629,7 +629,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Composants\/buttons.scss" : {
+    "\/sass\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -637,7 +637,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Composants\/buttons.css",
+      "oAP" : "\/sass\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -769,7 +769,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/extensions.scss" : {
+    "\/sass\/Utils\/_extensions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -777,13 +777,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/extensions.css",
+      "oAP" : "\/sass\/Utils\/_extensions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/functions.scss" : {
+    "\/sass\/Utils\/_functions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -791,13 +791,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/functions.css",
+      "oAP" : "\/sass\/Utils\/_functions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/mixins.scss" : {
+    "\/sass\/Utils\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -805,13 +805,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/mixins.css",
+      "oAP" : "\/sass\/Utils\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/variables.scss" : {
+    "\/sass\/Utils\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -819,7 +819,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/variables.css",
+      "oAP" : "\/sass\/Utils\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
