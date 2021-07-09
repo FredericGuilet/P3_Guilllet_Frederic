@@ -25,18 +25,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/css\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/style-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/images\/icones\/android-icon-36x36.png" : {
       "ft" : 32768,
       "iS" : 2125,
@@ -453,20 +441,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/main.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/main.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/maquettes\/Accueil.png" : {
       "ft" : 32768,
       "iS" : 577581,
@@ -556,6 +530,18 @@
       "oAP" : "\/maquettes\/Oh my food - Textes.txt",
       "oF" : 0
     },
+    "\/public\/css\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/css\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/README.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -643,7 +629,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Composants\/_buttons.scss" : {
+    "\/sass\/Composants\/buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -651,7 +637,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Composants\/_buttons.css",
+      "oAP" : "\/sass\/Composants\/buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -713,6 +699,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/main.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/css\/style.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/Pages\/_about.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -769,7 +769,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/_extensions.scss" : {
+    "\/sass\/Utils\/extensions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -777,13 +777,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/_extensions.css",
+      "oAP" : "\/sass\/Utils\/extensions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/_functions.scss" : {
+    "\/sass\/Utils\/functions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -791,13 +791,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/_functions.css",
+      "oAP" : "\/sass\/Utils\/functions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/_mixins.scss" : {
+    "\/sass\/Utils\/mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -805,13 +805,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/_mixins.css",
+      "oAP" : "\/sass\/Utils\/mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/_variables.scss" : {
+    "\/sass\/Utils\/variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -819,7 +819,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/Utils\/_variables.css",
+      "oAP" : "\/sass\/Utils\/variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
