@@ -46,10 +46,10 @@ html {
 }
 
 
-footer , footer a
-{
-background-color: $fondfooter;
-color: whitesmoke;
+footer,
+footer a {
+  background-color: $fondfooter;
+  color: whitesmoke;
 }
 
 
@@ -57,8 +57,9 @@ color: whitesmoke;
   background-color: $tercolor;
 }
 
-.card--img , .cardrest--img {
-  
+.card--img,
+.cardrest--img {
+
   width: 320px;
   height: 150px;
 
