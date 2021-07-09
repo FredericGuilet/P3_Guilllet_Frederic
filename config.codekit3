@@ -467,6 +467,87 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/maquettes\/Accueil.png" : {
+      "ft" : 32768,
+      "iS" : 577581,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Accueil.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/maquettes\/Animations\/Animation - Page Menu - Apparition progressive.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Animations\/Animation - Page Menu - Apparition progressive.mp4",
+      "oF" : 0
+    },
+    "\/maquettes\/Animations\/Animation - Page Menu - Sélection d_un plat.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Animations\/Animation - Page Menu - Sélection d_un plat.mp4",
+      "oF" : 0
+    },
+    "\/maquettes\/Menu - À la française.png" : {
+      "ft" : 32768,
+      "iS" : 240272,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Menu - À la française.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/maquettes\/Menu - La note enchantée.png" : {
+      "ft" : 32768,
+      "iS" : 272843,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Menu - La note enchantée.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/maquettes\/Menu - La palette du goût.png" : {
+      "ft" : 32768,
+      "iS" : 272472,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Menu - La palette du goût.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/maquettes\/Menu - Le délice des sens.png" : {
+      "ft" : 32768,
+      "iS" : 271799,
+      "oA" : 0,
+      "oAP" : "\/maquettes\/Menu - Le délice des sens.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/maquettes\/Oh my food - Textes.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -674,7 +755,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Pages\/style.scss" : {
+    "\/sass\/Themes\/fichierbidon.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -682,21 +763,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/sass\/Pages\/style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/Themes\/style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/sass\/Themes\/style.css",
+      "oAP" : "\/sass\/Themes\/fichierbidon.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -758,7 +825,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/sass\/Utils\/style.scss" : {
+    "\/sass\/Vendors\/fichierbidon.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -766,21 +833,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/sass\/Utils\/style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/sass\/Vendors\/style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/sass\/Vendors\/style.css",
+      "oAP" : "\/sass\/Vendors\/fichierbidon.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
