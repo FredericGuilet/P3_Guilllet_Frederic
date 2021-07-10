@@ -362,7 +362,7 @@ template {
   -webkit-animation: spin 5s linear;
   animation: spin 5s linear;
   position: fixed;
-  animation-iteration-count: 2;
+  animation-iteration-count: 3;
   animation-duration: 3s;
   pointer-events: none;
   opacity: 0;
@@ -379,7 +379,7 @@ template {
     transform: rotate(0deg);
     opacity: 1;
   }
-  33% {
+  10% {
     transform: rotate(0deg);
     opacity: 1;
   }

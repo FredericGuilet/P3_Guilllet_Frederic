@@ -17,7 +17,7 @@
   position: fixed;
   // position: relative;
 
-  animation-iteration-count: 2;
+  animation-iteration-count: 3;
   animation-duration: 3s;
   pointer-events: none;
   opacity: 0;
@@ -30,21 +30,13 @@
 }
 
 
-.logofred {
-  // background-image: url("logoprovisoire.jpg");
-  // background-repeat: no-repeat;
-  // width: 20;
-  // height: 300px;
-  // padding: 0;
-}
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
     opacity: 1;
   }
 
-  33% {
+  10% {
     transform: rotate(0deg);
     opacity: 1;
 
