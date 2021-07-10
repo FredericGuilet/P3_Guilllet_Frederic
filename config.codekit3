@@ -595,6 +595,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/css\/logorond.png" : {
+      "ft" : 32768,
+      "iS" : 27110,
+      "oA" : 0,
+      "oAP" : "\/public\/css\/logorond.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
