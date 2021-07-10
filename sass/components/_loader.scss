@@ -1,9 +1,13 @@
+
+
+
 .loader {
 
-  background-image: url("logorond.png");
+  background-image: url("logorond.png") ;
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
+  
   padding: 0;
   border-radius: 50%;
   border-top: 16px solid lightgrey;
@@ -15,8 +19,6 @@
   -webkit-animation: spin 5s linear;
   animation: spin 5s linear;
   position: fixed;
-  // position: relative;
-
   animation-iteration-count: 3;
   animation-duration: 3s;
   pointer-events: none;
