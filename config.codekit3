@@ -368,6 +368,58 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/restaurants\/01palettedugout.jpg" : {
+      "ft" : 16384,
+      "iS" : 114824,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/restaurants\/01palettedugout.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/restaurants\/02noteenchante.jpg" : {
+      "ft" : 16384,
+      "iS" : 115085,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/restaurants\/02noteenchante.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/restaurants\/03alafrancaise.jpg" : {
+      "ft" : 16384,
+      "iS" : 91707,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/restaurants\/03alafrancaise.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/restaurants\/04ledelicedessens.jpg" : {
+      "ft" : 16384,
+      "iS" : 105013,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/restaurants\/04ledelicedessens.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/restaurants\/jay-wennington-N_Y88TWmGwA-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 1996484,
