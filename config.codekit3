@@ -615,6 +615,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/sass\/Base\/_normalize.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/Base\/_normalize.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/sass\/Base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -638,6 +652,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/sass\/components\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/sass\/components\/_loader.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/components\/_loader.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
