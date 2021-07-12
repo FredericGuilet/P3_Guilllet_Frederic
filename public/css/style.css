@@ -1,4 +1,7 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family= Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family= Shrikhand&display=swap");
 p {
   font-family: "Roboto";
   font-weight: normal;
@@ -439,14 +442,6 @@ h1 {
   animation-name: anim;
 }
 
-@keyframes anim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .logo {
   align-items: center;
   width: 160px;

@@ -25,14 +25,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/alafrancaise.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/alafrancaise.html",
-      "oF" : 0
-    },
     "\/images\/icones\/android-icon-36x36.png" : {
       "ft" : 32768,
       "iS" : 2125,
@@ -496,30 +488,6 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/lanoteenchantee.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/lanoteenchantee.html",
-      "oF" : 0
-    },
-    "\/lapalettedugout.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/lapalettedugout.html",
-      "oF" : 0
-    },
-    "\/ledelicedessens.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/ledelicedessens.html",
-      "oF" : 0
-    },
     "\/logoprovisoire.jpg" : {
       "ft" : 16384,
       "iS" : 40152,
@@ -621,6 +589,18 @@
       "oA" : 0,
       "oAP" : "\/maquettes\/Oh my food - Textes.txt",
       "oF" : 0
+    },
+    "\/menu-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/menu-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/menu.css" : {
       "aP" : 1,
