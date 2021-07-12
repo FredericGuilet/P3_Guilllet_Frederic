@@ -1,0 +1,14 @@
+// Comme les mixins ont tendance a augmenté toutes lignes de code
+// On préfère utiliser les extensions
+
+// Alors que les mixins se compilent en ensembles de règles dupliqués, 
+// les extensions se compilent en sélecteurs dupliqués.
+
+// Mis à part les arguments, la différence principale 
+// Avec les mixins vous obtenez des règles dupliquées,
+// Avec les extensions, vous obtenez des sélecteurs dupliqués.
+
+
+// Verdict : mixins ou extensions ?
+
+// Eh bien en fait, posé comme ça, la réponse est plutôt simple : n’utilisez pas d’extensions.

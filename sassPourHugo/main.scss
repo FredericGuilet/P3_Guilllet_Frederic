@@ -1,29 +1,49 @@
-@import "./01base/base";
-@import "./01base/typography";
-@import "./01base/normalize";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/normalize";
 
-@import "./02utils/variables";
-@import "./02utils/functions";
-@import "./02utils/mixins";
-@import "./02utils/extensions";
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/extensions";
 
-@import "./03layout/header";
-@import "./03layout/nav";
-@import "./03layout/container";
-@import "./03layout/form";
+@import "./components/buttons";
+@import "./components/loader";
 
-@import "./04components/buttons";
-@import "./04components/loader";
-
-@import "./05pages/work";
-@import "./05pages/about";
-@import "./05pages/project";
-
-@import "./06themes/theme.scss";
-
-@import "./07vendors/vendors.scss"
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/container";
+@import "./layout/form";
 
 
+
+@import "./pages/work";
+@import "./pages/about";
+@import "./pages/project";
+
+
+body {
+	max-width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	font-family : 'Roboto', sans-serif ;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	
+}
+h4,p,h5 {
+	margin: auto;
+}
+h1 {
+	color: #353535;
+	text-align: center;
+	font-size: 1.7em;
+	padding: 15px 30px 0 30px;
+	font-weight: bolder;
+}
 .nosrestaurants p {
 	padding: 0 10px 0 10px;
 	font-weight: 300;

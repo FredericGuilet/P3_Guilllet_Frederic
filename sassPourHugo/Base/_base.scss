@@ -1,0 +1,14 @@
+$couleurPrimaire : #9356DC;
+$couleurSecondaire : #FF79DA;
+$couleurTertaire : #99E2D0;
+$fondgriscolor : #F2F2F2;
+$fondfooter:#333333;
+
+
+body {
+	max-width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	// par defaut on cache sur les lignes le dépassement
+	font-family : 'Roboto', sans-serif ;
+}
