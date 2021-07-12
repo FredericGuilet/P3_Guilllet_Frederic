@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<!DOCTYPE html>
-<html lang="fr">
 
 
 <head>
@@ -54,55 +52,80 @@
             Aussi les meta descriptions et celles pour twitter et le web -->
 
 </head>
-	<body>
-		<div class="loader"></div>
-		<div class="rest">
-			<header>
-				<a href="#"><img src="images/logo/ohmyfood.png" alt="logo" class="logo"></a>
-			</header>
 
- 			<div class="search">
-        		<i class="fas fa-map-marker-alt"></i>
-        		<input class="localisation" type="text" value="Paris, Belleville">
-    		</div>
-
-    		<section class="nosrestaurants"><!-- Section 1 -->
-				<h1>Réservez le menu qui vous convient</h1>
-    			<p>Découvrez des restaurants d'exception, selectionnés par nos soins</p>
-    			<input class="searchbutton" type="button" value="Explorer nos restaurants">
-    		</section>
+<body>
 
 
-			<section class="filters">
-				<h2>Fonctionnement</h2>
-				<div class="category-head">
-					<div class="icontextfilters">
-						<div class="number">1</div>
-						<div class="fonctionresto">
-							<i class="fas fa-mobile-alt" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Choisissez un restaurant</div>
-					</div>
+    <header>
 
-					<div class="icontextfilters">
-						<div class="fonctionresto">
-							<div class="number">2</div>
-							<i class="fas fa-list-ul" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Composez votre menu</div>
-					</div>
+        <!-- Logo -->
+        <img src="images/logo/ohmyfood@2x.svg" class="logo" alt="logo ohmyfood" />
 
-					<div class="icontextfilters">
-						<div class="fonctionresto">
-							<div class="number">3</div>
-							<i class="fas fa-store" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Dégustez au restaurant</div>
-					</div>
-				</div>
-			</section>
 
-		<!-- Section 2 -->
+        <!--    Loader   on va se marrer j'ai trouver un bon tuto Chez GrahikArt de Johnatan 
+                j'essaie car la formation sass me gonfle avec cette formatrice
+                alors autant s'amuser cette apres midi -->
+
+
+        <div class="loader">
+            <div class="logofred"> </div>
+
+            <!-- ///// le loader est il beau ...???? ////
+                    Prochaine étape laisser mon logo mais pas bouger -->
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="location">
+
+            <div class="locationlabel">
+
+                <span class="marker">
+                    <i class="fas fa-map-marker-alt fa-xs"></i>
+                </span>
+                <input class="inputplace" type="search" placeholder="Paris, Belleville">
+
+            </div>
+
+            <div class="service">
+                <h1><strong>Réservez le menu qui vous convient</strong></h1>
+                <p> Découvrez des restaurants d'exception, sélectionnés par nos soins. </p>
+                <button class="submit" id="submit">Explorer nos restaurants</button>
+            </div>
+
+            <!-- Début des choix-->
+
+            <div class="choose">
+
+                <div>
+                    <h3 class="chooseheader">Fonctionnement</h3>
+                </div>
+
+                <div class="choice_container">
+                    <div class="choice">
+                        <p>1</p>
+                        <button class="choice_restaurant"><i class="fas fa-mobile-alt"></i>Choisissez un
+                            restaurant</button>
+                    </div>
+
+                    <div class="choice">
+                        <p>2</p>
+                        <button class="menu_restaurant"><i class="fas fa-list-ul"></i>Composez votre menu</button>
+                    </div>
+
+                    <div class="choice">
+                        <p>3</p>
+                        <button class="meal_restaurant"><i class="fas fa-store"></i>Dégustez au restaurant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Maintenant on met les restos -->
+
 
 			<div class="container">
 				<h3 id="restaurants">Restaurants</h3>
@@ -118,6 +141,8 @@
 									<h4>La palette du goût</h4>
 									<p>Ménilmontant</p>
 								</div>
+						
+						
 								<div class="heartresto">
 									<i class="far fa-heart"></i>
 									<i class="fas fa-heart"></i>
@@ -127,7 +152,7 @@
 					</div>
 
 					<div class="boxresto">
-						<a href="menus/lanoteenchantee.html">
+						<a href="restaurant2.html">
 							<div class="newbox">
 								<img src="images/restaurants/02noteenchante.jpg" alt="enchantee" class="imgresto" width="100%"/>
 								<div class="new">Nouveau</h4></div>
@@ -146,7 +171,7 @@
 					</div>
 
  					<div class="boxresto">
-						<a href="menus/alafrancaise.html">
+						<a href="restaurant3.html">
 							<img src="images/restaurants/03alafrancaise.jpg" alt="alafrancaise" class="imgresto" width="100%"/>
 							<div class="restopart">
 								<div class="textresto">
@@ -162,7 +187,7 @@
 					</div>
 
  					<div class="boxresto">
-						<a href="menus/ledelicedessens.html">
+						<a href="restaurant4.html">
 							<img src="images/restaurants/04ledelicedessens.jpg" alt="ledelicedessens" class="imgresto" width="100%"/>
 							<div class="restopart">
 								<div class="textresto">
@@ -179,35 +204,37 @@
  				</section>
  			</div>
 
- 			<footer>
- 				<a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="logofooter" class="logofooter"></a>
-				<div class="proposer">
-					<a href="#">
-						<div class="iconresto"><i class="fas fa-utensils"></i></div>
-						<h5 class="restofooter">Proposer un restaurant</h5>
-					</a>
- 				</div>
+    </main>
 
- 				<div class="partenaire">
- 					<a href="#">
- 						<div class="iconresto"><i class="fas fa-hands-helping"></i></div>
- 						<h5 class="restofooter">Devenir partenaire</h5>
- 					</a>
- 				</div>
+    <footer>
+        <!-- footerheader-->
+        <h4>ohmyfood</h4>
 
- 				<div class="mentions">
- 					<a href="#" class="#">
- 						<h5>Mentions légales</h5>
- 					</a>
- 				</div>
+        <!-- footerlist-->
+        <div class="footer">
 
- 				<div class="contact">
- 					<a href="mailto:contact@ohmyfood.com" class="#">
- 						<h5>Contact</h5>
- 					</a>
- 				</div>
-			</footer>
- 		</div>
-	</body>
-</html>
+            <div class="suggestion">
+                <div class="icon1">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <a href="suggestions.html">Proposer un restaurant</a>
+            </div>
 
+            <div class="partenariat">
+                <div class="icon2">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <a href="partenariat.html">Devenir partenaire</a>
+            </div>
+
+            <a href="mentions_legales.html">Mentions légales</a>
+            <br />
+            <a href="mailto:maitrejedi@maitrejedi.com">Contact</a>
+
+        </div>
+    </footer>
+
+
+</body> <!-- end of body-->
+
+</html> <!-- end of html -->
