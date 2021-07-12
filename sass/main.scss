@@ -187,7 +187,8 @@ footer {
 }
 .heartresto .fas:hover{
  	background: linear-gradient($couleurPrimaire, $couleurSecondaire);
-  -webkit-background-clip: text;
+	 -webkit-background-clip: text;
+//   pour agir sur le texte c'est a dire le coeur
   -webkit-text-fill-color: transparent;
    display: initial;
    opacity: 1;
@@ -250,7 +251,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  margin: 5%;
+  margin: 10px;
   align-items: center;
   font-weight: 900;
   font-size: 0.8em;
