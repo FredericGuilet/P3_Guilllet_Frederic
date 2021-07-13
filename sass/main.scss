@@ -26,7 +26,7 @@
 
 .nosrestaurants p {
 	padding: 0 10px 0 10px;
-	font-weight: 300;
+	// font-weight: 300;
 	font-style: normal;
 }
 
@@ -196,8 +196,10 @@ footer {
 }
 
 .titreresto h1 {
-	font-size: 1.5em;
-	font-weight: 50;
+	font-size: 1.2em;
+	font-family: "Shrikhand", sans-serif;
+	font-weight: normal;
+
 }
 
 
@@ -283,7 +285,7 @@ footer {
 	justify-content: center;
 	padding: 5px;
 	align-items: center;
-	font-weight: 900;
+	font-weight: bold;
 	font-size: 0.8em;
 	top: 20px;
 	right: 20px;
@@ -323,7 +325,7 @@ h4 {
 
 .textresto p {
 	padding: 5px 0 8px 8px;
-	font-weight: 300;
+	font-weight: normal;
 	font-style: normal;
 	font-size: 0.9em;
 }
@@ -358,7 +360,7 @@ h4 {
 }
 
 h5 {
-	font-weight: 400;
+	// font-weight: 400;
 	font-style: normal;
 }
 
@@ -578,6 +580,7 @@ p {
 	box-shadow: 3px 2px 2px 3px #99E2D0;
 }
 
+// la jessaie de le bouger au clic et il veut pas 
 .entreeresto:active .rotate {
 	right: -40px;
 	color: white;
