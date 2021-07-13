@@ -30,11 +30,7 @@
 	font-style: normal;
 }
 
-.rest {
-	z-index: 1;
-	animation-duration: 5500ms;
-	animation-name: anim;
-}
+
 
 .logo {
 	align-items: center;
@@ -55,6 +51,7 @@ header {
 }
 
 .localisation {
+	font-family: "Roboto";
 	border: none;
 	background-color: #eaeaea;
 	display: flex;

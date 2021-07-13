@@ -22,7 +22,7 @@
   animation: spin 1s linear;
   position: fixed;
   animation-iteration-count: 5;
-  animation-duration: 0.5s;
+  animation-duration: 0.7s;
   pointer-events: none;
   opacity: 0;
   content: "";
@@ -53,10 +53,10 @@
 }
 
 .rest {
-
-  z-index: 1;
-  animation-duration: 5500ms;
-  animation-name: anim;
+	// On met en avant l'animation
+	z-index: 10;
+	animation-duration: 10000ms;
+	animation-name: anim;
 }
 
 @keyframes anim {
