@@ -459,7 +459,7 @@ h5 {
 }
 
 /* le délai pour ca a affiner  */
-.entreeresto:first-of-type(1) {
+.entreeresto:nth-of-type(1) {
 	animation-delay: 0s;
 }
 
@@ -475,7 +475,7 @@ h5 {
 	animation-delay: 1.5s;
 }
 
-.platresto:first-of-type(1) {
+.platresto:nth-of-type(1) {
 	animation-delay: 0s;
 }
 
@@ -487,7 +487,7 @@ h5 {
 	animation-delay: 1s;
 }
 
-.desserteresto:first-of-type(1) {
+.desserteresto:nth-of-type(1) {
 	animation-delay: 0s;
 }
 
