@@ -565,7 +565,20 @@ p {
 }
 
 // En dessous c'est pour bouger boite verte qui contient la checkbox
-.entreeresto:hover .rotate {
+.entreeresto:hover  .rotate  {
+	right: -40px;
+	color: white;
+	background-color: #99E2D0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 50px;
+	height: 100%;
+	transition: transform 0.6s ease-in-out;
+	transform: translateX(-2em);
+	box-shadow: 3px 2px 2px 3px #99E2D0;
+}
+
+.entreeresto:active .rotate {
 	right: -40px;
 	color: white;
 	background-color: #99E2D0;
@@ -606,7 +619,6 @@ p {
 	transition: transform 0.6s ease-in-out;
 	transform: translateX(-2em);
 	box-shadow: 3px 2px 2px 3px #99E2D0;
-
 
 }
 
@@ -676,8 +688,6 @@ p {
 	font-size: 0.8em;
 }
 
-
-
 @media screen and (min-width: 768px) {
 	.restosection {
 		display: grid;
@@ -685,7 +695,6 @@ p {
 		grid-template-rows: 1fr 1fr;
 		grid-gap: 3%;
 		align-items: center;
-
 	}
 
 	.container {
@@ -728,15 +737,10 @@ p {
 		flex-direction: row;
 	}
 
-	// .container {
-	// 	justify-content: center;
-	// }
-
 	.restaurant {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 2%;
-
 	}
 
 	.entrees,
