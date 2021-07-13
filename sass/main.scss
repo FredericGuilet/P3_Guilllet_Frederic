@@ -24,11 +24,17 @@
 @import "./07vendors/vendors";
 
 
-.nosrestaurants p {
-	padding: 0 10px 0 10px;
-	font-weight: 300;
-	font-style: normal;
-}
+// body {
+// 	overflow-x: hidden;
+// 	max-width: 100%;
+// 	margin: 0;
+// }
+
+// .nosrestaurants p {
+// 	padding: 0 10px 0 10px;
+// 	font-weight: 300;
+// 	font-style: normal;
+// }
 
 .rest {
 	z-index: 1;
@@ -50,6 +56,8 @@
 
 header {
 	text-align: center;
+	// display: flex;
+	// justify-content: center;
 	padding: 20px 0 15px 0;
 	box-shadow: 0px 3px 6px 0px rgb(89 89 89 / 64%);
 }
@@ -182,7 +190,7 @@ footer {
 	margin: 0;
 }
 
-.iconresto,
+.iconresto, .iconheart,
 .restofooter {
 	display: inline-flex;
 }
@@ -194,6 +202,18 @@ footer {
 	margin-right: 40px;
 	top: 20px;
 }
+
+.titreresto {
+	display: flex;
+	width: 100%;
+}
+
+.titreresto h1
+{
+	font-size: 1.5em;
+	font-weight: 50;
+}
+
 
 .iconresto .fas {
 	position: relative;
@@ -215,8 +235,6 @@ footer {
 
 .heartresto:hover .far {
 	display: none;
-
-
 }
 
 .heartresto .fas,
@@ -230,6 +248,7 @@ footer {
 	font-style: normal;
 	position: relative;
 	font-size: 1em;
+	// margin-right: 5px;
 }
 
 .container {
@@ -329,6 +348,7 @@ h4 {
 	padding-right: 15px;
 	padding-top: 5px;
 	margin: 0;
+
 }
 
 .proposer,
@@ -336,6 +356,19 @@ h4 {
 .partenaire,
 .mentions {
 	margin-bottom: 10px;
+}
+
+
+.entreeresto:hover p,
+.entreeresto:hover h3,
+.platresto:hover p,
+.platresto:hover h3,
+.dessertresto:hover p,
+.dessertresto:hover h3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 80%;
 }
 
 h5 {
@@ -346,6 +379,334 @@ h5 {
 .iconresto {
 	margin-right: 5px;
 }
+
+
+.fleche {
+	position: absolute;
+	left: 1.5em;
+	top: 1.6em;
+}
+
+.container {
+	background-color: #f6f6f6;
+	display: flex;
+	margin-bottom: 10px;
+	flex-direction: column;
+	border: 1px solid #f6f6f6;
+	margin-top: -30px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	position: relative;
+	padding: 0 10px 0 10px;
+}
+
+.entreeresto,
+.platresto,
+.dessertresto
+ {
+	border-radius: 20px;
+	background-color: #ffffff;
+	height: 70px;
+	box-shadow: 0 0 6px 3px #b1b1b14b;
+	margin: 10px 0 10px 0;
+	display: flex;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgpalette {
+	background-image: url("../../images/restaurants/01palettedugout.jpg");
+}
+
+.imgdelice {
+	background-image: url("../../images/restaurants/04ledelicedessens.jpg");
+}
+
+.imgfrancaise {
+	background-image: url("../../images/restaurants/03alafrancaise.jpg");
+}
+
+.imglanote {
+	background-image: url("../../images/restaurants/02noteenchante.jpg");
+}
+
+.imglanote,
+.imgdelice,
+.imgpalette,
+.imgfrancaise {
+	background-size: cover;
+	background-position: center center;
+	height: 50vw;
+	width: 100%;
+}
+
+.entrees,
+.plats,
+.desserts {
+	flex-direction: column;
+	display: flex;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+/* On commence l'animation des plats qui arrivent */
+
+.entreeresto {
+	animation: deplacement 500ms both ease-in-out;
+}
+
+.platresto {
+	animation: deplacement 1000ms both ease-in-out;
+}
+
+.dessertresto {
+	animation: deplacement 1500ms both ease-in-out;
+}
+
+@keyframes deplacement {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* le délai pour ca a affiner  */
+.entreeresto:first-of-type(1) {
+	animation-delay: 0s;
+}
+
+.entreeresto:nth-of-type(2) {
+	animation-delay: 0.5s;
+}
+
+.entreeresto:nth-of-type(3) {
+	animation-delay: 1s;
+}
+
+.entreeresto:nth-of-type(4) {
+	animation-delay: 1.5s;
+}
+
+.platresto:first-of-type(1) {
+	animation-delay: 0s;
+}
+
+.platresto:nth-of-type(2) {
+	animation-delay: 0.5s;
+}
+
+.platresto:nth-of-type(3) {
+	animation-delay: 1s;
+}
+
+.desserteresto:first-of-type(1) {
+	animation-delay: 0s;
+}
+
+.dessertresto:nth-of-type(2) {
+	animation-delay: 0.5s;
+}
+
+.dessertresto:nth-of-type(3) {
+	animation-delay: 1s;
+}
+
+
+p {
+	display: inline-block;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.line {
+	width: 45px;
+	margin: 0;
+	background-color: #99E2D0;
+	height: 3px;
+	margin-top: -10px;
+}
+
+.price {
+	flex: min-content;
+	display: flex;
+	padding-top: 39px;
+	font-family: 'Roboto', sans-serif;
+	transition: flex 500ms linear;
+	font-size: 0.8em;
+	font-weight: bold;
+
+}
+
+.searchbutton {
+	height: 45px;
+	border-radius: 20px;
+	font-size: 1em;
+	width: 220px;
+	color: white;
+	margin-bottom: 50px;
+	background: linear-gradient(#FF79DA, #9356DC);
+	border: none;
+	display: flex;
+	justify-content: center;
+	box-shadow: 3px 3px 10px #bfbfbf;
+}
+
+.searchbutton:hover {
+	opacity: 0.8;
+}
+
+.container a {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	margin: 0;
+	flex: 1 1 80%;
+	transition: flex 500ms linear;
+
+}
+
+.rotate {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	color: transparent;
+	right: -50px;
+	top: 0;
+}
+
+.rotate i {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	color: transparent;
+	font-size: 20px;
+}
+
+.entreeresto:hover .rotate {
+	right: -30px;
+	color: white;
+	background-color: #99E2D0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 50px;
+	height: 100%;
+	transition: transform 0.6s ease-in-out;
+	transform: translateX(-2em);
+	box-shadow: 3px 2px 2px 3px #99E2D0;
+}
+
+.entreeresto:hover .rotate i {
+	right: 0;
+	color: white;
+	transition: 1s ease-in-out;
+	transform: rotate(360deg);
+}
+
+.entreeresto:hover .price {
+	transition: transform 1s ease-in-out;
+	transform: translateX(-2em);
+}
+
+.entreeresto .price {
+	transition: 1s ease-in-out;
+}
+
+
+.platresto:hover .rotate {
+	right: -30px;
+	color: white;
+	background-color: #99E2D0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 50px;
+	height: 100%;
+	transition: transform 1s ease-in-out;
+	transform: translateX(-2em);
+	box-shadow: 3px 2px 2px 3px #99E2D0;
+
+
+}
+
+.platresto:hover .rotate i {
+	right: 0;
+	color: white;
+	transition: 1s ease-in-out;
+	transform: rotate(360deg);
+
+}
+
+.platresto:hover .price {
+	transition: transform 1s ease-in-out;
+	transform: translateX(-2em);
+}
+
+.platresto .price {
+	transition: 1s ease-in-out;
+}
+
+.platresto .rotate {
+	transition: 1s ease-in-out;
+}
+
+.dessertresto:hover .rotate {
+	right: -30px;
+	color: white;
+	background-color: #99E2D0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 50px;
+	height: 100%;
+	transition: transform 1s ease-in-out;
+	transform: translateX(-2em);
+	box-shadow: 3px 2px 2px 3px #99E2D0;
+}
+
+.dessertresto:hover .rotate i {
+	right: 0;
+	color: white;
+	transition: 1s ease-in-out;
+	transform: rotate(360deg);
+
+}
+
+.dessertresto:hover .price {
+	transition: transform 1s ease-in-out;
+	transform: translateX(-2em);
+}
+
+.dessertresto .price {
+	transition: 1s ease-in-out;
+}
+
+.dessertresto .rotate {
+	transition: 1s ease-in-out;
+}
+
+.restaurant h3 {
+	padding: 15px 0 0 10px;
+	font-size: 1em;
+}
+
+.restaurant p {
+	padding: 5px 0 10px 10px;
+	font-size: 0.8em;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -379,9 +740,19 @@ h5 {
 	h2 {
 		text-align: center;
 	}
+
+	.imglanote,
+	.imgdelice,
+	.imgpalette,
+	.imgfrancaise 
+	{
+		height: 30vw;
+	}
 }
 
 @media screen and (min-width: 1200px) {
+
+
 	.restosection {
 		margin-bottom: 50px;
 		background-color: #f2f2f2;
@@ -391,5 +762,35 @@ h5 {
 		justify-content: center;
 		flex-direction: row;
 	}
+
+	// .container {
+	// 	justify-content: center;
+	// }
+
+	.restaurant {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2%;
+
+	}
+
+	.entrees,
+	.plats,
+	.desserts {
+		width: 100%;
+	}
+
+	.searchbutton {
+		justify-content: center;
+
+	}
+
+
+	.entreeresto:hover .rotate,
+	.platresto:hover .rotate,
+	.dessertresto:hover .rotate {
+		width: 20%;
+	}
+
 
 }
