@@ -24,17 +24,11 @@
 @import "./07vendors/vendors";
 
 
-// body {
-// 	overflow-x: hidden;
-// 	max-width: 100%;
-// 	margin: 0;
-// }
-
-// .nosrestaurants p {
-// 	padding: 0 10px 0 10px;
-// 	font-weight: 300;
-// 	font-style: normal;
-// }
+.nosrestaurants p {
+	padding: 0 10px 0 10px;
+	font-weight: 300;
+	font-style: normal;
+}
 
 .rest {
 	z-index: 1;
@@ -110,10 +104,6 @@ header {
 	padding: 15px 20px 15px 20px;
 }
 
-.searchbutton:hover {
-	opacity: 0.8;
-}
-
 .search .fas {
 	margin-right: 10px;
 }
@@ -167,17 +157,13 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-bottom: 40px;
 }
 
 .filters {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 30px;
-}
-
-h2 {
-	margin-left: 30px;
-	margin-top: 50px;
 }
 
 footer {
@@ -190,7 +176,8 @@ footer {
 	margin: 0;
 }
 
-.iconresto, .iconheart,
+.iconresto,
+.iconheart,
 .restofooter {
 	display: inline-flex;
 }
@@ -208,8 +195,7 @@ footer {
 	width: 100%;
 }
 
-.titreresto h1
-{
+.titreresto h1 {
 	font-size: 1.5em;
 	font-weight: 50;
 }
@@ -248,7 +234,7 @@ footer {
 	font-style: normal;
 	position: relative;
 	font-size: 1em;
-	// margin-right: 5px;
+
 }
 
 .container {
@@ -402,8 +388,7 @@ h5 {
 
 .entreeresto,
 .platresto,
-.dessertresto
- {
+.dessertresto {
 	border-radius: 20px;
 	background-color: #ffffff;
 	height: 70px;
@@ -522,11 +507,6 @@ p {
 	display: inline-block;
 }
 
-h2 {
-	font-size: 1em;
-	font-weight: 400;
-	font-style: normal;
-}
 
 .line {
 	width: 45px;
@@ -547,19 +527,6 @@ h2 {
 
 }
 
-.searchbutton {
-	height: 45px;
-	border-radius: 20px;
-	font-size: 1em;
-	width: 220px;
-	color: white;
-	margin-bottom: 50px;
-	background: linear-gradient(#FF79DA, #9356DC);
-	border: none;
-	display: flex;
-	justify-content: center;
-	box-shadow: 3px 3px 10px #bfbfbf;
-}
 
 .searchbutton:hover {
 	opacity: 0.8;
@@ -597,8 +564,9 @@ h2 {
 	font-size: 20px;
 }
 
+// En dessous c'est pour bouger boite verte qui contient la checkbox
 .entreeresto:hover .rotate {
-	right: -30px;
+	right: -40px;
 	color: white;
 	background-color: #99E2D0;
 	border-top-right-radius: 20px;
@@ -628,14 +596,14 @@ h2 {
 
 
 .platresto:hover .rotate {
-	right: -30px;
+	right: -40px;
 	color: white;
 	background-color: #99E2D0;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	width: 50px;
 	height: 100%;
-	transition: transform 1s ease-in-out;
+	transition: transform 0.6s ease-in-out;
 	transform: translateX(-2em);
 	box-shadow: 3px 2px 2px 3px #99E2D0;
 
@@ -663,15 +631,16 @@ h2 {
 	transition: 1s ease-in-out;
 }
 
+// les blocks vert bougent et met le right et la vitesse
 .dessertresto:hover .rotate {
-	right: -30px;
+	right: -40px;
 	color: white;
 	background-color: #99E2D0;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	width: 50px;
 	height: 100%;
-	transition: transform 1s ease-in-out;
+	transition: transform 0.6s ease-in-out;
 	transform: translateX(-2em);
 	box-shadow: 3px 2px 2px 3px #99E2D0;
 }
@@ -737,15 +706,11 @@ h2 {
 		padding-bottom: 10px;
 	}
 
-	h2 {
-		text-align: center;
-	}
 
 	.imglanote,
 	.imgdelice,
 	.imgpalette,
-	.imgfrancaise 
-	{
+	.imgfrancaise {
 		height: 30vw;
 	}
 }
