@@ -55,12 +55,16 @@
 .rest {
 	// On met en avant l'animation
 	z-index: 10;
-	animation-duration: 10000ms;
+	animation-duration: 5100ms;
 	animation-name: anim;
 }
 
 @keyframes anim {
   0% {
+    opacity: 0;
+  }
+
+  70% {
     opacity: 0;
   }
 

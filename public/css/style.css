@@ -20,6 +20,8 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   text-align: left;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 h3 {
@@ -50,7 +52,6 @@ p {
   font-family: "Roboto", sans-serif;
   word-wrap: break-word;
   white-space: normal;
-  font-size: 0.8em;
 }
 
 .container h3 {
@@ -445,12 +446,15 @@ template {
 }
 .rest {
   z-index: 10;
-  animation-duration: 10000ms;
+  animation-duration: 5100ms;
   animation-name: anim;
 }
 
 @keyframes anim {
   0% {
+    opacity: 0;
+  }
+  70% {
     opacity: 0;
   }
   100% {
@@ -515,7 +519,7 @@ header {
   padding-bottom: 20px;
 }
 
-.searchbutton {
+.searchbutton1 {
   border-radius: 20px;
   font-size: 1.5em;
   color: white;
@@ -525,7 +529,23 @@ header {
   margin-top: 20px;
   border: none;
   box-shadow: 3px 3px 10px #bfbfbf;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 50px 15px 50px;
+  justify-content: center;
+}
+
+.searchbutton {
+  border-radius: 20px;
+  font-size: 1.5em;
+  color: white;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  margin-top: 20px;
+  border: none;
+  box-shadow: 3px 3px 10px #bfbfbf;
+  padding: 15px 50px 15px 50px;
+  justify-content: center;
 }
 
 .search .fas {
@@ -657,7 +677,7 @@ footer {
   font-size: 1em;
 }
 
-s #restaurants {
+#restaurants {
   font-weight: bolder;
 }
 
@@ -919,6 +939,10 @@ p {
   opacity: 0.8;
 }
 
+.searchbutton1:hover {
+  opacity: 0.8;
+}
+
 .text {
   margin: 0;
   flex: 1 1 80%;
@@ -1120,6 +1144,10 @@ p {
   }
 
   .searchbutton {
+    justify-content: center;
+  }
+
+  .searchbutton1 {
     justify-content: center;
   }
 

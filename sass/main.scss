@@ -86,17 +86,34 @@ header {
 	padding-bottom: 20px;
 }
 
+.searchbutton1 {
+	border-radius: 20px;
+	font-size: 1.5em;
+	color: white;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+	// margin-left: 100px;
+	background: linear-gradient($couleurSecondaire, $couleurPrimaire);
+	margin-top: 20px;
+	border: none;
+	box-shadow: 3px 3px 10px #bfbfbf;
+	padding: 15px 50px 15px 50px;
+	justify-content: center;
+}
+
 .searchbutton {
 	border-radius: 20px;
 	font-size: 1.5em;
 	color: white;
 	font-size: 0.9em;
 	margin-bottom: 20px;
+	margin-left: 100px;
 	background: linear-gradient($couleurSecondaire, $couleurPrimaire);
 	margin-top: 20px;
 	border: none;
 	box-shadow: 3px 3px 10px #bfbfbf;
-	padding: 15px 20px 15px 20px;
+	padding: 15px 50px 15px 50px;
+	justify-content: center;
 }
 
 .search .fas {
@@ -184,6 +201,7 @@ footer {
 	position: relative;
 	margin-right: 40px;
 	top: 20px;
+
 }
 
 .titreresto {
@@ -198,14 +216,17 @@ footer {
 
 }
 
-
 .iconresto .fas {
 	position: relative;
+	
+
 }
 
-.heartresto .fas {
+.heartresto .fas
+ {
 	opacity: 0;
 	transition: opacity 400ms ease-in-out;
+
 }
 
 .heartresto .fas:hover {
@@ -215,6 +236,7 @@ footer {
 	-webkit-text-fill-color: transparent;
 	display: initial;
 	opacity: 1;
+	
 }
 
 .heartresto:hover .far {
@@ -225,6 +247,8 @@ footer {
 .heartresto .far {
 	position: absolute;
 	font-size: 1.5em;
+
+
 }
 
 .iconresto {
@@ -233,8 +257,7 @@ footer {
 	position: relative;
 	font-size: 1em;
 
-}s
-
+}
 
 #restaurants {
 	font-weight: bolder;
@@ -301,9 +324,6 @@ footer {
 	width: 100%;
 	position: relative;
 }
-
-
-
 
 .textresto p {
 	padding: 5px 0 8px 8px;
@@ -511,6 +531,10 @@ p {
 
 
 .searchbutton:hover {
+	opacity: 0.8;
+}
+
+.searchbutton1:hover {
 	opacity: 0.8;
 }
 
@@ -728,7 +752,10 @@ p {
 
 	.searchbutton {
 		justify-content: center;
+	}
 
+	.searchbutton1 {
+		justify-content: center;
 	}
 
 
