@@ -3,210 +3,213 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <!-- L'encodage le plus intelligent car moins d'octets -->
+	<meta charset="UTF-8">
+	<!-- L'encodage le plus intelligent car moins d'octets -->
 
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <!-- Pour la visibilité sous explore -->
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<!-- Pour la visibilité sous explore -->
 
 
-    <!-- Fontawesome icon kit-->
-    <title>Ohmyfood...</title>
-    <!-- le titre de la page  -->
+	<!-- Fontawesome icon kit-->
+	<title>Ohmyfood...</title>
+	<!-- le titre de la page  -->
 
-    <script src="https://kit.fontawesome.com/32e4f6682e.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/32e4f6682e.js" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-    <!-- La c'est le lien des fontes  -->
+	<!-- La c'est le lien des fontes  -->
 
-    <link rel="stylesheet" href="public/css/style.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
 
-    <!-- on appelle la feuille de style  -->
+	<!-- on appelle la feuille de style  -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de reservation de menus dans des restaurants gastronomiques" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Site de reservation de menus dans des restaurants gastronomiques" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="images/icones/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/icones/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icones/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icones/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icones/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icones/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/icones/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icones/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icones/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/icones/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icones/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/icones/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icones/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/icones/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/icones/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icones/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icones/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icones/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icones/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/icones/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icones/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icones/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/icones/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icones/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/icones/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icones/favicon-16x16.png">
 
-    <!--  Ici j'ai misles favicon pour ios et firefox chrome samsung-->
+	<!--  Ici j'ai misles favicon pour ios et firefox chrome samsung-->
 	<!-- Mon Logo est trop top -->
 
 </head>
-	<body>
+
+<body>
+
+	<!-- Pour travailler je met le loader en commentaire -->
+	<!-- Changement pour valider le w3c apres fini pour les commit
+			en attente des commentaires de Hugo-->
+
+	<div class="loader"></div>
+	<div class="rest">
 
 		<!-- Pour travailler je met le loader en commentaire -->
-		<!-- Pour changer pour le commit voir si ma sauv commit a fonctionné -->
 
-		<div class="loader"></div>
-		<div class="rest">
+		<header>
+			<a href="#"><img src="images/logo/ohmyfood.png" alt="logo" class="logo"></a>
+		</header>
 
-		<!-- Pour travailler je met le loader en commentaire -->
-		
-			<header>
-				<a href="#"><img src="images/logo/ohmyfood.png" alt="logo" class="logo"></a>
-			</header>
+		<div class="search">
+			<i class="fas fa-map-marker-alt"></i>
+			<input class="localisation" type="text" value="Paris, Belleville">
+		</div>
 
- 			<div class="search">
-        		<i class="fas fa-map-marker-alt"></i>
-        		<input class="localisation" type="text" value="Paris, Belleville">
-    		</div>
-
-    		<section class="nosrestaurants"><!-- Section 1 -->
-				<h1>Réservez le menu qui vous convient</h1>
-    			<p>Découvrez des restaurants d'exception, selectionnés par nos soins</p>
-    			<input class="searchbutton1" type="button" value="Explorer nos restaurants">
-    		</section>
+		<section class="nosrestaurants">
+			<!-- Section 1 -->
+			<h1>Réservez le menu qui vous convient</h1>
+			<p>Découvrez des restaurants d'exception, selectionnés par nos soins</p>
+			<input class="searchbutton1" type="button" value="Explorer nos restaurants">
+		</section>
 
 
-			<section class="filters">
-				<h3>Fonctionnement</h3>
-				<div class="category-head">
-					<div class="icontextfilters">
-						<div class="number">1</div>
-						<div class="fonctionresto">
-							<i class="fas fa-mobile-alt" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Choisissez un restaurant</div>
+		<section class="filters">
+			<h3>Fonctionnement</h3>
+			<div class="category-head">
+				<div class="icontextfilters">
+					<div class="number">1</div>
+					<div class="fonctionresto">
+						<i class="fas fa-mobile-alt" aria-hidden="true"></i>
 					</div>
-
-					<div class="icontextfilters">
-						<div class="fonctionresto">
-							<div class="number">2</div>
-							<i class="fas fa-list-ul" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Composez votre menu</div>
-					</div>
-
-					<div class="icontextfilters">
-						<div class="fonctionresto">
-							<div class="number">3</div>
-							<i class="fas fa-store" aria-hidden="true"></i>
-						</div>
-						<div class="filterdescription">Dégustez au restaurant</div>
-					</div>
+					<div class="filterdescription">Choisissez un restaurant</div>
 				</div>
-			</section>
+
+				<div class="icontextfilters">
+					<div class="fonctionresto">
+						<div class="number">2</div>
+						<i class="fas fa-list-ul" aria-hidden="true"></i>
+					</div>
+					<div class="filterdescription">Composez votre menu</div>
+				</div>
+
+				<div class="icontextfilters">
+					<div class="fonctionresto">
+						<div class="number">3</div>
+						<i class="fas fa-store" aria-hidden="true"></i>
+					</div>
+					<div class="filterdescription">Dégustez au restaurant</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Section 2 -->
 
-			<div class="container1">
-				<h3 id="restaurants">Restaurants</h3>
-				<section class="restosection"> 
-					<div class="boxresto">
-						<a href="restaurant1.html">
-							<div class="newbox">
-								<img src="images/restaurants/01palettedugout.jpg" alt="lapalettedugout" class="imgresto" />
-								<div class="new">Nouveau</div>
+		<div class="container1">
+			<h3 id="restaurants">Restaurants</h3>
+			<section class="restosection">
+				<div class="boxresto">
+					<a href="restaurant1.html">
+						<div class="newbox">
+							<img src="images/restaurants/01palettedugout.jpg" alt="lapalettedugout" class="imgresto" />
+							<div class="new">Nouveau</div>
+						</div>
+						<div class="restopart">
+							<div class="textresto">
+								<h5>La palette du goût</h5>
+								<p>Ménilmontant</p>
 							</div>
-							<div class="restopart">
-								<div class="textresto">
-									<h5>La palette du goût</h5>
-									<p>Ménilmontant</p>
-								</div>
-								<div class="heartresto">
-									<i class="far fa-heart"></i>
-									<i class="fas fa-heart"></i>
-								</div> 
+							<div class="heartresto">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-heart"></i>
 							</div>
-						</a>
-					</div>
-
-					<div class="boxresto">
-						<a href="restaurant2.html">
-							<div class="newbox">
-								<img src="images/restaurants/02noteenchante.jpg" alt="enchantee" class="imgresto"/>
-								<div class="new">Nouveau</div>
-							</div>
-							<div class="restopart">
-								<div class="textresto">
-									<h5>La note enchantée</h5>
-									<p>Charonne</p>
-								</div>
-								<div class="heartresto">
-									<i class="far fa-heart"></i>
-									<i class="fas fa-heart"></i>
-								</div> 
-							</div>
-						</a>
-					</div>
-
- 					<div class="boxresto">
-						<a href="restaurant3.html">
-							<img src="images/restaurants/03alafrancaise.jpg" alt="alafrancaise" class="imgresto" />
-							<div class="restopart">
-								<div class="textresto">
-									<h5>A la française</h5>
-									<p>Cité rouge</p>
-								</div>
-								<div class="heartresto">
-									<i class="far fa-heart"></i>
-									<i class="fas fa-heart"></i>
-								</div> 
-							</div>
-						</a>
-					</div>
-
- 					<div class="boxresto">
-						<a href="restaurant4.html">
-							<img src="images/restaurants/04ledelicedessens.jpg" alt="ledelicedessens" class="imgresto" />
-							<div class="restopart">
-								<div class="textresto">
-									<h5>Le délice des sens</h5>
-									<p>Folie-Méricourt</p>
-								</div>
-								<div class="heartresto">
-									<i class="far fa-heart"></i>
-									<i class="fas fa-heart"></i>
-								</div>
-							</div> 
-						</a>
-					</div>
- 				</section>
- 			</div>
-
- 			<footer>
- 				<a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="logofooter" class="logofooter"></a>
-				<div class="proposer">
-					<a href="#">
-						<div class="iconresto"><i class="fas fa-utensils"></i></div>
-						<h5 class="restofooter">Proposer un restaurant</h5>
+						</div>
 					</a>
- 				</div>
+				</div>
 
- 				<div class="partenaire">
- 					<a href="#">
- 						<div class="iconresto"><i class="fas fa-hands-helping"></i></div>
- 						<h5 class="restofooter">Devenir partenaire</h5>
- 					</a>
- 				</div>
+				<div class="boxresto">
+					<a href="restaurant2.html">
+						<div class="newbox">
+							<img src="images/restaurants/02noteenchante.jpg" alt="enchantee" class="imgresto" />
+							<div class="new">Nouveau</div>
+						</div>
+						<div class="restopart">
+							<div class="textresto">
+								<h5>La note enchantée</h5>
+								<p>Charonne</p>
+							</div>
+							<div class="heartresto">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-heart"></i>
+							</div>
+						</div>
+					</a>
+				</div>
 
- 				<div class="mentions">
- 					<a href="#" class="#">
- 						<h5>Mentions légales</h5>
- 					</a>
- 				</div>
+				<div class="boxresto">
+					<a href="restaurant3.html">
+						<img src="images/restaurants/03alafrancaise.jpg" alt="alafrancaise" class="imgresto" />
+						<div class="restopart">
+							<div class="textresto">
+								<h5>A la française</h5>
+								<p>Cité rouge</p>
+							</div>
+							<div class="heartresto">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-heart"></i>
+							</div>
+						</div>
+					</a>
+				</div>
 
- 				<div class="contact">
- 					<a href="mailto:contact@ohmyfood.com" class="#">
- 						<h5>Contact</h5>
- 					</a>
- 				</div>
-			</footer>
- 		</div>
-	</body>
+				<div class="boxresto">
+					<a href="restaurant4.html">
+						<img src="images/restaurants/04ledelicedessens.jpg" alt="ledelicedessens" class="imgresto" />
+						<div class="restopart">
+							<div class="textresto">
+								<h5>Le délice des sens</h5>
+								<p>Folie-Méricourt</p>
+							</div>
+							<div class="heartresto">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-heart"></i>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="logofooter" class="logofooter"></a>
+			<div class="proposer">
+				<a href="#">
+					<div class="iconresto"><i class="fas fa-utensils"></i></div>
+					<h5 class="restofooter">Proposer un restaurant</h5>
+				</a>
+			</div>
+
+			<div class="partenaire">
+				<a href="#">
+					<div class="iconresto"><i class="fas fa-hands-helping"></i></div>
+					<h5 class="restofooter">Devenir partenaire</h5>
+				</a>
+			</div>
+
+			<div class="mentions">
+				<a href="#" class="#">
+					<h5>Mentions légales</h5>
+				</a>
+			</div>
+
+			<div class="contact">
+				<a href="mailto:contact@ohmyfood.com" class="#">
+					<h5>Contact</h5>
+				</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
 </html>
-
