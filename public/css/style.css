@@ -443,7 +443,6 @@ template {
   border-radius: 35px 35px 35px 35px;
   margin: 15px auto 0 auto;
   display: block;
-  cursor: pointer;
   transform: scale(1);
   opacity: 100%;
   font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
