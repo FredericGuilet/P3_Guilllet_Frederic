@@ -1,1 +1,48 @@
 // ici les boutons
+
+.searchbutton1 {
+	border-radius: 20px;
+	font-size: 1.5em;
+	color: white;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+	background: linear-gradient($couleurSecondaire, $couleurPrimaire);
+	margin-top: 20px;
+	border: none;
+	box-shadow: 3px 3px 10px #bfbfbf;
+	padding: 15px 50px 15px 50px;
+	justify-content: center;
+	cursor: pointer;
+}
+
+:hover
+{
+	cursor: pointer;
+}
+
+
+.service button, .submitorder {
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #353535;
+    background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+    border-style: none;
+    font-size: 1rem;
+    padding: 15px 0 15px 0px;
+    border-radius: 35px 35px 35px 35px;
+    margin: 15px auto 0 auto;
+    display: block;
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 100%;
+    font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
+    width: 200px;
+}
+
+.service button:hover,
+.submitorder:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+  box-shadow: 3px 3px 3px #353535;
+  transition: all 0.4s linear;
+}

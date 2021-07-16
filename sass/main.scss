@@ -85,35 +85,8 @@ header {
 	padding-bottom: 20px;
 }
 
-.searchbutton1 {
-	border-radius: 20px;
-	font-size: 1.5em;
-	color: white;
-	font-size: 0.9em;
-	margin-bottom: 20px;
-	background: linear-gradient($couleurSecondaire, $couleurPrimaire);
-	margin-top: 20px;
-	border: none;
-	box-shadow: 3px 3px 10px #bfbfbf;
-	padding: 15px 50px 15px 50px;
-	justify-content: center;
-}
 
 
-.searchbutton {
-	border-radius: 20px;
-	font-size: 1.5em;
-	color: white;
-	font-size: 0.9em;
-	margin-bottom: 20px;
-	margin-left: 100px;
-	background: linear-gradient($couleurSecondaire, $couleurPrimaire);
-	margin-top: 20px;
-	border: none;
-	box-shadow: 3px 3px 10px #bfbfbf;
-	padding: 15px 50px 15px 50px;
-	justify-content: center;
-}
 
 .search .fas {
 	margin-right: 10px;
@@ -400,19 +373,20 @@ h5 {
 
 
 .container {
-	color: #000000;
-	font-size: 18px;
-	background-color: #F2F2F2;
-	padding: 0 20px 0 20px;
-	flex-direction: column;
-	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	justify-content: center;
-	margin-top: -50px;
+    color: #000000;
+    font-size: 18px;
+    background-color: #F2F2F2;
+    padding: 0 20px 20px 20px;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    justify-content: center;
+    margin-top: -50px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    margin-bottom: 20px;
 }
 
 .entreeresto,
@@ -557,9 +531,9 @@ p {
 }
 
 
-.searchbutton:hover {
-	opacity: 0.8;
-}
+// .searchbutton:hover {
+// 	opacity: 0.8;
+// }
 
 .searchbutton1:hover {
 	opacity: 0.8;
@@ -635,6 +609,18 @@ p {
 	transition: 1s ease-in-out;
 }
 
+.service {
+	text-align: center;
+	background-color: #F6F6F6;
+	font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
+	padding: 40px 0 50px 0;
+  }
+
+  
+
+.order {
+    padding: 20px 0 50px 0;
+}
 
 .platresto:hover .rotate {
 	right: -40px;
@@ -748,6 +734,10 @@ p {
 	}
 }
 
+
+
+
+
 @media screen and (min-width: 1200px) {
 
 
@@ -773,12 +763,13 @@ p {
 		width: 100%;
 	}
 
-	.searchbutton {
-		justify-content: center;
-	}
+	// .searchbutton {
+	// 	justify-content: center;
+	// }
 
 	.searchbutton1 {
 		justify-content: center;
+
 	}
 
 

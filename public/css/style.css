@@ -413,6 +413,51 @@ template {
   display: none;
 }
 
+.searchbutton1 {
+  border-radius: 20px;
+  font-size: 1.5em;
+  color: white;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  margin-top: 20px;
+  border: none;
+  box-shadow: 3px 3px 10px #bfbfbf;
+  padding: 15px 50px 15px 50px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+:hover {
+  cursor: pointer;
+}
+
+.service button, .submitorder {
+  height: 50px;
+  color: #FFFFFF;
+  background-color: #353535;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  border-style: none;
+  font-size: 1rem;
+  padding: 15px 0 15px 0px;
+  border-radius: 35px 35px 35px 35px;
+  margin: 15px auto 0 auto;
+  display: block;
+  cursor: pointer;
+  transform: scale(1);
+  opacity: 100%;
+  font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
+  width: 200px;
+}
+
+.service button:hover,
+.submitorder:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+  box-shadow: 3px 3px 3px #353535;
+  transition: all 0.4s linear;
+}
+
 .loader {
   background-image: url("logorond.png");
   background-repeat: no-repeat;
@@ -521,35 +566,6 @@ header {
   border: 1px solid #f6f6f6;
   text-align: center;
   padding-bottom: 20px;
-}
-
-.searchbutton1 {
-  border-radius: 20px;
-  font-size: 1.5em;
-  color: white;
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  background: linear-gradient(#FF79DA, #9356DC);
-  margin-top: 20px;
-  border: none;
-  box-shadow: 3px 3px 10px #bfbfbf;
-  padding: 15px 50px 15px 50px;
-  justify-content: center;
-}
-
-.searchbutton {
-  border-radius: 20px;
-  font-size: 1.5em;
-  color: white;
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  background: linear-gradient(#FF79DA, #9356DC);
-  margin-top: 20px;
-  border: none;
-  box-shadow: 3px 3px 10px #bfbfbf;
-  padding: 15px 50px 15px 50px;
-  justify-content: center;
 }
 
 .search .fas {
@@ -815,7 +831,7 @@ h5 {
   color: #000000;
   font-size: 18px;
   background-color: #F2F2F2;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
   flex-direction: column;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -825,6 +841,7 @@ h5 {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  margin-bottom: 20px;
 }
 
 .entreeresto,
@@ -962,10 +979,6 @@ p {
   font-weight: bold;
 }
 
-.searchbutton:hover {
-  opacity: 0.8;
-}
-
 .searchbutton1:hover {
   opacity: 0.8;
 }
@@ -1035,6 +1048,17 @@ p {
 
 .entreeresto .price {
   transition: 1s ease-in-out;
+}
+
+.service {
+  text-align: center;
+  background-color: #F6F6F6;
+  font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
+  padding: 40px 0 50px 0;
+}
+
+.order {
+  padding: 20px 0 50px 0;
 }
 
 .platresto:hover .rotate {
@@ -1163,10 +1187,6 @@ p {
 .plats,
 .desserts {
     width: 100%;
-  }
-
-  .searchbutton {
-    justify-content: center;
   }
 
   .searchbutton1 {
