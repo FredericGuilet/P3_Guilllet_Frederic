@@ -99,6 +99,7 @@ header {
 	justify-content: center;
 }
 
+
 .searchbutton {
 	border-radius: 20px;
 	font-size: 1.5em;
@@ -429,19 +430,19 @@ h5 {
 }
 
 .imgpalette {
-	background-image: url("../../images/restaurants/01palettedugout.jpg");
+	background-image: url("../../images/restaurants/01palettedugout.webp");
 }
 
 .imgdelice {
-	background-image: url("../../images/restaurants/04ledelicedessens.jpg");
+	background-image: url("../../images/restaurants/04ledelicedessens.webp");
 }
 
 .imgfrancaise {
-	background-image: url("../../images/restaurants/03alafrancaise.jpg");
+	background-image: url("../../images/restaurants/03alafrancaise.webp");
 }
 
 .imglanote {
-	background-image: url("../../images/restaurants/02noteenchante.jpg");
+	background-image: url("../../images/restaurants/02noteenchante.webp");
 }
 
 .imglanote,
@@ -710,10 +711,6 @@ p {
 	font-size: 1em;
 }
 
-.restaurant p {
-	padding: 5px 0 10px 10px;
-	font-size: 0.8em;
-}
 
 @media screen and (min-width: 768px) {
 	.restosection {

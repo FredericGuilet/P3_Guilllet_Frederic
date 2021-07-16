@@ -51,19 +51,21 @@ h5 {
 p {
 	font-family: 'Roboto', sans-serif;
 	word-wrap: break-word;
+	text-overflow: ellipsis;
 	white-space: normal;
 
 }
 
 .restaurant h3 {
 	padding: 15px 0 0 10px;
-	font-size: 1em;
+	font-size: 16px;
 }
 
 .restaurant p {
 	padding: 5px 0 10px 10px;
-	font-size: 12px;
+	font-size: 10px;
 }
+
 
 .container h3 {
 	font-family: "Roboto", sans-serif;
