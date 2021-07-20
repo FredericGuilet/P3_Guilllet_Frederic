@@ -39,14 +39,10 @@ header {
 }
 
 
-
 .logo {
 	align-items: center;
 	width: 160px;
 }
-
-
-
 
 
 .localisation {
@@ -155,8 +151,7 @@ header {
 
 .iconresto,
 .iconheart,
-.restofooter 
-{
+.restofooter {
 	display: inline-flex;
 }
 
@@ -183,12 +178,11 @@ header {
 
 .iconresto .fas {
 	position: relative;
-	
+
 
 }
 
-.heartresto .fas
- {
+.heartresto .fas {
 	opacity: 0;
 	transition: opacity 400ms ease-in-out;
 
@@ -220,7 +214,7 @@ footer {
 	-webkit-text-fill-color: transparent;
 	display: initial;
 	opacity: 1;
-	
+
 }
 
 .heartresto:hover .far {
@@ -361,33 +355,33 @@ h5 {
 	top: 1.6em;
 }
 
-.container1{
+.container1 {
 	color: #000000;
 	font-size: 18px;
 	background-color: #F2F2F2;
 	padding: 0 20px 0 20px;
 	flex-direction: column;
 	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	justify-content: center;
+	-webkit-box-direction: normal;
+	justify-content: center;
 }
 
 
 .container {
-    color: #000000;
-    font-size: 18px;
-    background-color: #F2F2F2;
-    padding: 0 20px 20px 20px;
-    flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    justify-content: center;
-    margin-top: -50px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-bottom: 20px;
+	color: #000000;
+	font-size: 18px;
+	background-color: #F2F2F2;
+	padding: 0 20px 20px 20px;
+	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	justify-content: center;
+	margin-top: -50px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-bottom: 20px;
 }
 
 .entreeresto,
@@ -567,7 +561,7 @@ p {
 }
 
 // En dessous c'est pour bouger boite verte qui contient la checkbox
-.entreeresto:hover  .rotate  {
+.entreeresto:hover .rotate {
 	right: -40px;
 	color: white;
 	background-color: #99E2D0;
@@ -615,12 +609,12 @@ p {
 	background-color: #F6F6F6;
 	font-family: "Roboto-Regular", Arial, Verdana, sans-serif;
 	padding: 40px 0 50px 0;
-  }
+}
 
-  
+
 
 .order {
-    padding: 20px 0 50px 0;
+	padding: 20px 0 50px 0;
 }
 
 .platresto:hover .rotate {
